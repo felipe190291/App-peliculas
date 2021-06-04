@@ -1,0 +1,36 @@
+   #Mov{
+     display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+   }
+.boton{
+  display: flex;;
+  justify-content:center;
+}
+.lindo {
+    position: absolute;
+    top: 0;
+    right: 0;
+   
+}
+.Poster{
+  position: relative;
+    width: fit-content;
+    margin: 10px;
+    border: 3px solid red; 
+}
+.efect {
+    width: 185px;
+    height: 300px;
+}
+.efect:hover {
+    filter:blur(2px)
+} 
+.submitBtn {
+    border-radius: 50%;
+    background-color: rgba(59, 59, 149, 0);
+    margin-right: 5px;
+    border: 0px;
+  }
+
+
